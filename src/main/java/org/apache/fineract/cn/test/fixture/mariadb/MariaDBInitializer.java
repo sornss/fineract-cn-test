@@ -81,7 +81,7 @@ public final class MariaDBInitializer extends DataStoreTenantInitializer {
 
   private static void startEmbeddedMariaDB() throws Exception {
     if (MariaDBInitializer.db == null) {
-      MariaDBInitializer.db = DB.newEmbeddedDB(3306);
+      MariaDBInitializer.db = DB.newEmbeddedDB(3307);
       MariaDBInitializer.db.start();
     }
   }

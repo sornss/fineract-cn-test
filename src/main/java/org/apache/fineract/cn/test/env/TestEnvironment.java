@@ -69,7 +69,7 @@ public final class TestEnvironment extends ExternalResource {
   public static final String MARIADB_HOST_DEFAULT = "localhost";
 
   public static final String MARIADB_PORT_PROPERTY = "mariadb.port";
-  public static final String MARIADB_PORT_DEFAULT = "3306";
+  public static final String MARIADB_PORT_DEFAULT = "3307";
 
   public static final String MARIADB_USER_PROPERTY = "mariadb.user";
   public static final String MARIADB_USER_DEFAULT = "root";
